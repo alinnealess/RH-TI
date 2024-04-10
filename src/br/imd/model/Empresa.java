@@ -4,12 +4,7 @@ import java.util.ArrayList;
 
 public class Empresa {
   private static ArrayList<Funcionario> funcionarios;
-
-  // constructor
-  public Empresa(ArrayList<Funcionario> funcionarios) {
-    this.funcionarios = funcionarios;
-  }
-
+  
   public Empresa() {
     funcionarios = new ArrayList<>();
   }

@@ -21,7 +21,4 @@ public class Programador extends Funcionario{
     System.out.println(info0 + info1 + info2);
   }
 
-  
-
-
 }
