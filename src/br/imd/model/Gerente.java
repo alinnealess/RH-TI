@@ -15,9 +15,12 @@ public class Gerente extends Funcionario {
 
   @Override
   public void imprimirDados() {
-    String info0 = "\n###############################################\n";
-    String info1 = "Nome: " + this.nome + "\nCPF: " + this.cpf + "\nData da nascimento: " + this.dataNascimento;
-    String info2 = "\nDepartamento: " + this.departamento + "\nSalario: " + calcularSalario();
+    String info0 = "\n#-------------------------------------\n";
+    String info1 = "Nome: " + this.nome + 
+                    "\nCPF: " + this.cpf + 
+                    "\nData da nascimento: " + this.dataNascimento;
+    String info2 = "\nDepartamento: " + this.departamento + 
+                    "\nSalario: " + calcularSalario();
     System.out.println(info0 + info1 + info2);
   }
 

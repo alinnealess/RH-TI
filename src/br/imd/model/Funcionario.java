@@ -5,7 +5,7 @@ public abstract class Funcionario {
   protected String cpf;
   protected int matricula;
   protected String dataNascimento;
-  public static double SALARIO_MINIMO = 1045.00;
+  public static final Double SALARIO_MINIMO = 1045.00;
 
 
   public Funcionario(String nome, String cpf, int matricula, String dataNascimento) {
